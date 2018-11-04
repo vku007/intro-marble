@@ -1,0 +1,1 @@
+shared, high loaded resource
