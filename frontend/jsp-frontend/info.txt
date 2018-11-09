@@ -1,0 +1,4 @@
+docker build --tag=jsp-frontend:latest --rm=true .
+// publish host:container
+docker run --name=jsp-frontend  --publish 8092:8090 jsp-frontend:latest
+
